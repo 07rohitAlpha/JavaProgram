@@ -4,12 +4,12 @@ public class SwapNumberWithVariable {
 	
 	
 	public void main(String args[]) {
-	int x ,y ;
+	int x =20,y=30 ;
 	System.out.println("enter the x and y");
-	Scanner in = new Scanner(System.in);
+//	Scanner in = new Scanner(System.in);
 	
-	x = in.nextInt();
-	y = in.nextInt();
+//	x = in.nextInt();
+//	y = in.nextInt();
 	
 	System.out.println("before swaping\nx =" +x+ "\ny" +y);
 	x= x+y;

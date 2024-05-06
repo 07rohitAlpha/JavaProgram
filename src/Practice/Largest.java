@@ -20,15 +20,9 @@ public class Largest {
 			System.out.println("Second number is largest.");
 		else if (z>x && z>y)
 			System.out.println("Third mumber is largest.");
-		else
-			System.out.println("Entered number are not distinct.");
-		
-		
-		
-		
-		
-		
-		
+	//	else
+	//		System.out.println("Entered number are not distinct.");
+				
 
 	}
 

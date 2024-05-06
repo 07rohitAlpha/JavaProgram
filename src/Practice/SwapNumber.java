@@ -1,6 +1,6 @@
 package Practice;
 
-import java.lang.invoke.MethodHandles.Lookup.ClassOption;
+//import java.lang.invoke.MethodHandles.Lookup.ClassOption;
 import java.util.Scanner;
 
 public class SwapNumber {
@@ -14,13 +14,14 @@ public class SwapNumber {
 		x = in.nextInt();
 		y= in.nextInt();
 		
-		System.out.println("Before swapping =" +x+ "/y" +y);
+		System.out.println("Before swapping = x" +x+  "/y"  +y);
 		
 		x= x+y;
 		y= x-y;
 		x= x-y;
 		
-		System.out.println("After Swapping =" +x+ "/y"+y);
+		System.out.println("After Swapping =x" +x+ "/y"+y);
+		
 		
 		
 
