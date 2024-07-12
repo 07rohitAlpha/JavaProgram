@@ -18,7 +18,7 @@ public class ReversString {
 //
 //	}
 //		
-		        String original = "example"; // Specify the original string directly
+		        String original = "Wellcome".toLowerCase(); // Specify the original string directly
 		        String reverse = "";
 		        
 		        System.out.println("Original string: " + original);

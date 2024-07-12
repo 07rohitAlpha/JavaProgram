@@ -8,7 +8,7 @@ public class RecursionTechnolamror {
 			return(n*factorial(n-1));
 	}
 	public static void main (String[] args) {
-		System.out.println("factorial of 5 is :"+ factorial(2));
+		System.out.println("factorial of 5 is :"+ factorial(5));
 	}
 
 }

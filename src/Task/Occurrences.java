@@ -21,10 +21,10 @@ public class Occurrences {
 	public static void main(String[] args) {
 	
 		//Input String 
-		String str= "Boro";
+		String str= "i am java developer i am proud of it";
 		
 		// word to be counted
-		String word= "";
+		String word= " ";
 		
 		//printing the count of occurrences of the given
 		// word in the input string

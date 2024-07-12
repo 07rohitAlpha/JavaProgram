@@ -1,34 +1,19 @@
 package Task;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-
 public class StringCount {
-
 	public static void main(String[] args) {
 		
-		String a= "String";
-		int Count= 0;
-		
-		for(int i = 0;i<a.length(); i++) {
-			if(a.charAt(i) != ' ') {
-				Count ++;
+		String input = "hacker rank earth";
+		int count = 0;
+		for(int i=0; i<input.length(); i++) {
+			if(input.charAt(i) != ' ') {
+				count ++;
 			}
 		}
-		System.out.println(Count);
-
+		System.out.println(count);
 	}
 
+	
+	
+	
 }
-
-
-
-
-	
-	
-	
-	
-	
-
