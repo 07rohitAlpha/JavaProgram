@@ -31,7 +31,15 @@ these private value can not be accessible directly by the other testing classes 
 class Subclass extends Superclass {
     // Fields and methods of the subclass
 }
+========================Abstraction=========================================
+Abstraction means to handle complexity by hiding unnecessary details from the user.In java abstraction is achieved by 
+interfaces and abstract classes. we can achives 100% abstraction using interfaces.
+In Selenium, Webdriver itself acts as interface. WebDriver driver = new Chromedriver();
+We initialize the chrome Broswer using Selenium WebDriver . it means we are creating a reference variable (driver) of the interface(WebDriver)
+and creating an Oject. here WebDriver is an Interface and ChromeDrive is a class.
+We can apply Abstraction in a selenium framework by using the Page Object Model design pattern. We define all our locators and their methods in the page class. 
 
+==========================
 
 what are different HTTP method 
 GET:Fetch the data, (1.Retrive information from the given server using a given URL. 
@@ -42,5 +50,37 @@ PUT:full update
 DELETE:delete the data 
 OPTIONS: client to server.
 HEAD:same as GET, but body is not coming and Transfers the status line and header section
+
+
+
+
+=========================================================
+Cross browser Testing and parallel Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f
 
        

@@ -18,11 +18,12 @@ public class ReversString {
 //
 //	}
 //		
-		        String original = "Wellcome".toLowerCase(); // Specify the original string directly
+		        String original = "Wellcome to the ".toLowerCase(); // Specify the original string directly
 		        String reverse = "";
 		        
 		        System.out.println("Original string: " + original);
 		        
+		      //  String[] arr= original.split(" ");
 		        int length = original.length();
 		        
 		        for (int i = length - 1; i >= 0; i--) {

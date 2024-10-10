@@ -3,7 +3,7 @@ package Practice;
 public class Armstrong {
 
 	public static void main(String[] args) {
-	int num = 370, a, b, c=0;
+	int num = 1634, a, b, c=0;
 	b=num;
 	while(num>0) {
 		a=num%10;
