@@ -153,5 +153,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/User/Downloads/selenium-java-4.6.0/selenium-chrome-driver-4.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
