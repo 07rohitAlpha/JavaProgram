@@ -1,0 +1,86 @@
+=======Encapsulation in Object-Oriented Programming===================
+ Encapsulation is one of the four fundamental OOP concepts.
+ The primary purpose of encapsulation is to bundle the data (variables) and the code (methods) that manipulates the 
+ data into a single unit called a class. 
+ It also restricts direct access to some of an object's components, which can prevent the accidental modification of data. 
+ Here are the main purposes of encapsulation:
+
+ 1.Data Hiding: Encapsulation helps to hide the internal state of an object from the outside.This means that the internal 
+ representation of an object is not exposed directly to the outside world, which helps to maintain the integrity of the data.
+ 2.Controlled Access: Encapsulation allows the class to control the access to its data. This is usually done through access 
+ modifiers like private, protected, and public.
+ 3.Improved Maintainability: By hiding the implementation details, encapsulation allows developers to change the internal 
+ implementation without affecting the external code.
+ 4.Enhanced Security: By controlling access to the data, encapsulation helps to secure the data from unauthorized 
+ access and modification.
+
+in page object model we use for private access modifier in framework all instance variables as private set  all 
+these private value can not be accessible directly by the other testing classes we will inti
+
+
+=======================================Inheritance in Java=====================================================
+ Inheritance is a fundamental concept in object-oriented programming (OOP) that allows one class to inherit the fields and
+ methods of another class. The class that inherits is called the subclass (or derived class), and the class being inherited
+ from is called the superclass (or base class). Inheritance promotes code reuse and maintainability by allowing the subclass
+ to reuse the code from the superclass, eliminating redundancy and making it easier to update and maintain code.
+ 
+       class Superclass {
+    // Fields and methods of the superclass
+}
+
+class Subclass extends Superclass {
+    // Fields and methods of the subclass
+}
+========================Abstraction=========================================
+Abstraction means to handle complexity by hiding unnecessary details from the user.In java abstraction is achieved by 
+interfaces and abstract classes. we can achives 100% abstraction using interfaces.
+In Selenium, Webdriver itself acts as interface. WebDriver driver = new Chromedriver();
+We initialize the chrome Broswer using Selenium WebDriver . it means we are creating a reference variable (driver) of the interface(WebDriver)
+and creating an Oject. here WebDriver is an Interface and ChromeDrive is a class.
+We can apply Abstraction in a selenium framework by using the Page Object Model design pattern. We define all our locators and their methods in the page class. 
+
+==========================
+
+what are different HTTP method 
+GET:Fetch the data, (1.Retrive information from the given server using a given URL. 
+2. Requests using GET should only retrive data and should have no other effect on the data.)
+POST:create the data, (A Post request is used to send data to server, for example. customer information, file upload ,etc. using HTML forms
+PATCH:partial update, 
+PUT:full update
+DELETE:delete the data 
+OPTIONS: client to server.
+HEAD:same as GET, but body is not coming and Transfers the status line and header section
+
+
+
+
+=========================================================
+Cross browser Testing and parallel Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f
+
+       
