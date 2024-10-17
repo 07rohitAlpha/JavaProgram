@@ -7,18 +7,21 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
-import org.testng.Assert;
 
-import WebDriverArch.ChromeDriver;
+import com.aventstack.extentreports.util.Assert;
+
+
+
 
 
 public class Inter3 {
 
 	
 	public void browser() {
-	// opening and close the browser.
+	// opening and close the browser
 	WebDriver driver = (WebDriver) new ChromeDriver();
 	driver.get("www.example");
 	driver.quit();
