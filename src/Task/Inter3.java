@@ -1,5 +1,6 @@
 package Task;
 
+import java.awt.Desktop.Action;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
@@ -9,7 +10,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.aventstack.extentreports.util.Assert;
 
@@ -53,8 +56,9 @@ public class Inter3 {
 	
 	// Mouse and Keyboard Actions
 	Actions actions = new Actions(driver);
-	actions.moveToElement(element).click().build().perform();// Move to and click
-	actions.doubleClick(element).perform(); // Double-click
+	actions.moveToElement(null);
+	//actions.moveToElement(element).click().build().perform();// Move to and click
+	actions.doubleClick(null).perform(); // Double-click
 	WebElement drag = driver.findElement(By.xpath("asg"));
 	WebElement drop = driver.findElement(By.xpath("axfgs"));
 	actions.dragAndDrop(drag, drop);
@@ -71,16 +75,16 @@ public class Inter3 {
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	
 	// Fluent Wait 
-	FluentWait wait = new FluentWait(driver);
+	FluentWait wait1 = new FluentWait(driver);
 	
 	// Specify the timeout of the wait
-	wait.withTimeout(5000,TimeUnit.MILLISECONDS);	
+	wait1.withTimeout(5000,TimeUnit.MILLISECONDS);	
 	//Specify polling time 
-	wait.pollingEvery(250.TimeUnit.MILLISECONDS);
+	wait1.pollingEvery(250.TimeUnit.MILLISECONDS);
 	// Specify what exceptions to ignore
-	wait.ignoring(NoSuchElementException.class)
+	wait1.ignoring(NoSuchElementException.class)
 	// This is how we specify the condition to wait on
-	wait.until(ExceptedConditions.alertsPresent());
+	wait1.until(ExceptedConditions.alertsPresent());
 
 	// Alerts
 	
