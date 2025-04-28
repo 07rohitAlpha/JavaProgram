@@ -15,7 +15,15 @@ public class Fibonacci {
 			b=c;
 			c= a+b;
 			System.out.println("series :"  +a);
+			
+		
+		
+			
+			
 		}
+		
+		
+		
 	}
 }
 

@@ -4,8 +4,39 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		String input = "aca";
+//		int length= input.length();
+//		int i, begin=0, end=length-1, middle= (begin+end)/2;
+//		for(i=begin; i<=middle; i++) {
+//			if(input.charAt(begin)==input.charAt(end)) {
+//				begin++;
+//				end--;
+//			}else {
+//				break;
+//			}
+//		}
+//		if(i==middle+1) {	
+//			System.out.println("Palindrome");
+//		}else {
+//			System.out.println("is not Palindrome");
+//		}
+		
+//		int length = input.length();
+//		int i , begin=0, end=length-1, middle= (begin+end)/2;
+//		for(i=begin; i<=middle; i++) {
+//			if(input.charAt(begin)==input.charAt(end)) {
+//				begin++;
+//				end--;
+//			}else {
+//				break;
+//			}}
+//		if(i==middle+1) {
+//			System.out.println("Palindrome");
+//			}else {
+//				System.out.println("is not Palindrome");
+//		}
+//		
 		int length= input.length();
-		int i, begin=0, end=length-1, middle= (begin+end)/2;
+		int i , begin=0, end= length-1, middle= (begin+end)/2;
 		for(i=begin; i<=middle; i++) {
 			if(input.charAt(begin)==input.charAt(end)) {
 				begin++;
@@ -14,11 +45,14 @@ public class Palindrome {
 				break;
 			}
 		}
-		if(i==middle+1) {	
-			System.out.println("Palindrome");
+		if(i==middle+1) {
+			System.out.println("palindrome");
 		}else {
-			System.out.println("is not Palindrome");
+			System.out.println("is not palindrime");
 		}
+		
+		
+		
 
 	}
 

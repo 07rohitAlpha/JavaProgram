@@ -48,6 +48,8 @@ public class Duplic {
 		System.out.println(result);
 		
 		
+		
+		
 		}
 	}
 

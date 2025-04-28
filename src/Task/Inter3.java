@@ -82,7 +82,7 @@ public class Inter3 {
 	//Specify polling time 
 	wait1.pollingEvery(250.TimeUnit.MILLISECONDS);
 	// Specify what exceptions to ignore
-	wait1.ignoring(NoSuchElementException.class)
+	wait1.ignoring(NoSuchElementException.class);
 	// This is how we specify the condition to wait on
 	wait1.until(ExceptedConditions.alertsPresent());
 

@@ -37,31 +37,55 @@ public class SecondLargestandSmallest {
 //        System.out.println("\nSecond largest number is:" + secondsmallest);
 //        
 		
-		int largest= Integer.MIN_VALUE;
+//		int largest= Integer.MIN_VALUE;
+//		int secondlargest= Integer.MIN_VALUE;
+//		int smallest = Integer.MAX_VALUE;
+//		int secondsmallest= Integer.MAX_VALUE;
+//		System.out.println("The given array is");
+//		for(int i=0; i<arr.length; i++) {
+//			if(arr[i]>largest) {
+//				secondlargest= largest;
+//				largest=arr[i];
+//			}
+//			else if(arr[i]>secondlargest) {
+//				secondlargest= arr[i];
+//			}
+//			if(arr[i]<smallest) {
+//				secondsmallest= smallest;
+//				smallest=arr[i];
+//			}
+//			else if(arr[i]<secondsmallest) {
+//				secondsmallest= arr[i];
+//			}
+//		}
+//		System.out.println(secondlargest);
+//		System.out.println(secondsmallest);
+		
+		int largest = Integer.MIN_VALUE;
 		int secondlargest= Integer.MIN_VALUE;
 		int smallest = Integer.MAX_VALUE;
-		int secondsmallest= Integer.MAX_VALUE;
-		System.out.println("The given array is");
-		for(int i=0; i<arr.length; i++) {
+		int secondsmallest = Integer.MAX_VALUE;
+		
+		System.out.println("The given array is ");
+		for(int i = 0; i<arr.length; i++) {
 			if(arr[i]>largest) {
 				secondlargest= largest;
-				largest=arr[i];
+				largest= arr[i];
 			}
 			else if(arr[i]>secondlargest) {
 				secondlargest= arr[i];
 			}
+			
 			if(arr[i]<smallest) {
 				secondsmallest= smallest;
-				smallest=arr[i];
+				smallest= arr[i];
 			}
-			else if(arr[i]<secondsmallest) {
+			else if (arr[i]<secondsmallest) {
 				secondsmallest= arr[i];
 			}
 		}
-		System.out.println(secondlargest);
-		System.out.println(secondsmallest);
-		
-		
+		System.out.println("Secondlargest : " +secondlargest );
+		System.out.println("Secondsmallest :" +secondsmallest);
 		
 		
 		

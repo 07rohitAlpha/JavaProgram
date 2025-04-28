@@ -58,24 +58,39 @@ public class Duplicate_Char {
 //		
 //		
 
-		String s = "hacakkaerrkkk".toLowerCase();
-		char[] character = s.toCharArray();
+//		String s = "hacakkaerrkkk".toLowerCase();
+//		char[] character = s.toCharArray();
+//
+//		Set<Character> duplicates = new HashSet<>();
+//		Set<Character> seenCharacters = new HashSet<>();
+//		StringBuilder result = new StringBuilder();
+//
+//		for (char c : character) {
+//			if (seenCharacters.contains(c)) {
+//				if (!duplicates.contains(c)) {
+//					result.append(c);
+//					duplicates.add(c);
+//			 	}
+//			} else {
+//				seenCharacters.add(c);
+//			}
+//		}
+//		System.out.println("duplicate character :" + result.toString());
+		
+		
+		
+			String input = "hackerearth";
+			char[] character= input.toCharArray();
 
-		Set<Character> duplicates = new HashSet<>();
-		Set<Character> seenCharacters = new HashSet<>();
-		StringBuilder result = new StringBuilder();
+			HashSet<Character> seem = new HashSet<>();
 
-		for (char c : character) {
-			if (seenCharacters.contains(c)) {
-				if (!duplicates.contains(c)) {
-					result.append(c);
-					duplicates.add(c);
-				}
-			} else {
-				seenCharacters.add(c);
+			for( char c: character){
+			        if(!seem.add(c)){
+			     System.out.println(c);
+			      
+			        }
 			}
-		}
-		System.out.println("duplicate character :" + result.toString());
+		
 
 	}
 

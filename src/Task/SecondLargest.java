@@ -24,7 +24,7 @@ public class SecondLargest {
 //            }
 //        }
 //        System.out.println("\nSecond largest number is:" + secondLargest);
-
+//
 		int largest =0;
 		int secondlargest=0;
 		System.out.println("the given array is ");
@@ -39,8 +39,7 @@ public class SecondLargest {
 		}
 		System.out.println(secondlargest + ": " + largest);
         
-        
-        
+               
 	}
 
 }

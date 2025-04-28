@@ -10,7 +10,7 @@ public class Str {
 		A[i]= A[(A[i] +3)% A.length];
 		
 		}
-		System.out.println(A[1]);
+		System.out.println(A);
 
 	}
 

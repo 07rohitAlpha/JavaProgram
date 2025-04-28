@@ -61,10 +61,17 @@ public class Occ {
 		//	if(e.getValue()>1) {
 			System.out.println("Character is :" + e.getKey()+ " and its count is string is " + e.getValue());
 		}
+		
+		
+		
+		
+		
+		  
+	
 	}
 	
+}
 	
-	}
 	
 	
 //	}

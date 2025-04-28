@@ -4,7 +4,7 @@ public class RemoveDuplicate {
 
 	public static void main(String[] args) {
 
-        String input = "apppliiation my is my ";
+        String input = "apppliiation";
         String output = " ";
 
         for (int i = 0; i < input.length(); i++) {
@@ -22,7 +22,7 @@ public class RemoveDuplicate {
         }
         
         
-        System.out.println(output);
+        System.out.println("output:"+output);
 
     }
 

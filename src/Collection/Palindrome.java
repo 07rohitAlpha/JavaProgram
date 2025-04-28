@@ -40,11 +40,9 @@ public class Palindrome {
 		inputString = in.nextLine();
 		
 		int length = inputString.length();
-		int i, begin, end, middle;
+	//	int i, begin, end, middle;
 		
-		begin = 0;
-		end = length-1;
-		middle = (begin + end)/2;
+	int i,	begin = 0,end = length-1,middle = (begin + end)/2;
 		
 		
 		for (i= begin; i<=middle; i++) {
